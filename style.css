@@ -24,6 +24,7 @@ body{
     box-sizing: content-box;
     background-color: var(--White);
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .img__box{
@@ -49,4 +50,10 @@ body{
 .paragraph__text{
     color: var(--Slate-500);
     font-size: 0.98rem;
+}
+
+@media (max-width: 768px) {
+    body{
+        margin: 30% auto;
+    }
 }
